@@ -115,8 +115,11 @@ nav {
     font-size: 22px;
     margin: 10px auto;
     margin-bottom: 50px;
+}
 
-
+.plant-title {
+    color: #000000;
+    margin: 50px;
 }
 
 .plant-description {
@@ -160,11 +163,13 @@ nav {
 
 /* plants lover section is here */
 .plant-lover {
-    margin-top: 210px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     position: relative;
     justify-content: space-between;
     gap: 60px;
     align-items: flex-start;
+
 }
 
 .title {
@@ -183,7 +188,7 @@ nav {
 
 .badge {
     position: absolute;
-    top: -145px;
+    top: -85px;
     right: 540px;
 }
 
@@ -202,6 +207,8 @@ nav {
 .lover-description ul li {
     max-width: 540px;
     max-height: 108px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 
 }
 
@@ -218,6 +225,7 @@ nav {
     max-width: 800px;
     margin: 16px auto;
     font-size: 22px;
+    margin-bottom: 50px;
 }
 
 
@@ -307,6 +315,7 @@ nav {
     align-items: center;
     flex-direction: column;
     gap: 30px;
+    margin-bottom: 50px;
 
 }
 
@@ -338,7 +347,44 @@ nav {
 
 }
 
-@media screen and (max-width:1800px) {
+/* footer section starts here */
+footer {
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+
+}
+
+.footer-menu ul {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-feature ul {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-icon {
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.footer-para {
+    width: 50%;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:993px) and (max-width:1500px) {
     .menubar {
         justify-content: space-between;
     }
@@ -442,6 +488,10 @@ nav {
         font-size: 24px;
     }
 
+    .lover-image {
+        margin: 50px auto;
+    }
+
     .lover-image img {
         width: 100%;
     }
@@ -489,6 +539,40 @@ nav {
         color: #FFFFFF;
         font-weight: 600;
         font-size: 16px;
+    }
+
+    /* join section */
+    .join h1 {
+        font-size: 20px;
+
+    }
+
+    .join input[type="email"] {
+        width: 200px;
+
+    }
+
+    .email-section button {
+        width: 100px;
+    }
+
+    footer {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .footer-menu {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .footer-icon {
+        margin-top: 20px;
+        justify-content: flex-start;
+        margin-left: 40px;
     }
 }
 
@@ -612,6 +696,40 @@ nav {
     .email-section button {
         width: 100px;
     }
+
+    /* join section */
+    .join h1 {
+        font-size: 20px;
+
+    }
+
+    .join input[type="email"] {
+        width: 200px;
+
+    }
+
+    .email-section button {
+        width: 100px;
+    }
+
+    footer {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .footer-menu {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .footer-icon {
+        margin-top: 20px;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -730,5 +848,24 @@ nav {
 
     .email-section button {
         width: 100px;
+    }
+
+    footer {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .footer-menu {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .footer-icon {
+        margin-top: 20px;
+        justify-content: flex-start;
+        margin-left: 40px;
     }
 }
