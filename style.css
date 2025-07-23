@@ -150,9 +150,61 @@ nav {
     font-weight: 600;
 }
 
+/* plants lover section is here */
+.plant-lover {
+    margin-top: 210px;
+    position: relative;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: flex-start;
+}
 
-/* responsive design starts here */
-@media screen and (max-width:1200px) {
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    width: 90%;
+
+}
+
+.title h1 {
+    margin-top: 0;
+
+}
+
+
+
+.badge {
+    position: absolute;
+    top: -145px;
+    right: 540px;
+}
+
+.badge img {
+    max-width: 286px;
+    max-height: 286px;
+
+}
+
+.lover-description ul {
+    font-size: 22px;
+    padding-left: 30px;
+
+}
+
+.lover-description ul li {
+    max-width: 540px;
+    max-height: 108px;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1800px) {
     .menubar {
         justify-content: space-between;
     }
@@ -165,7 +217,38 @@ nav {
         padding: 19px 30px;
     }
 
+    /* plants lover section starts here */
+    .plant-lover {
+
+        margin-top: 50px;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .lover-image img {
+        width: 100%;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .lover-description ul {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .lover-description ul li {
+        margin-bottom: 30px;
+    }
 }
+
+
+
+
 
 
 
@@ -217,7 +300,44 @@ nav {
     .card-button {
         padding: 19px 30px;
     }
+
+    /* plants lover section starts here */
+    .plant-lover {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .lover-image img {
+        width: 100%;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .lover-description {
+        margin: 50px auto;
+    }
+
+    .lover-description ul {
+        font-size: 22px;
+        margin-bottom: 10px;
+
+    }
+
+    .lover-description ul li {
+        margin-bottom: 30px;
+
+    }
 }
+
+
+
 
 @media screen and (min-width:577px) and (max-width:767px) {
     .margin {
@@ -262,6 +382,38 @@ nav {
 
     .card-button {
         padding: 19px 30px;
+    }
+
+    /* plants lover section starts here */
+    .plant-lover {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .lover-image {
+        margin: 0 auto;
+    }
+
+    .lover-image img {
+        width: 100%;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .lover-description ul {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .lover-description ul li {
+        margin-bottom: 30px;
     }
 }
 
@@ -309,5 +461,37 @@ nav {
 
     .card-button {
         padding: 19px 30px;
+    }
+
+    /* plants lover section starts here */
+    .plant-lover {
+        flex-direction: column;
+        margin-top: 50px;
+
+
+    }
+
+    .title {
+        width: 100%;
+        font-size: 24px;
+    }
+
+
+
+    .lover-image img {
+        width: 100%;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .lover-description ul {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .lover-description ul li {
+        margin-bottom: 30px;
     }
 }
