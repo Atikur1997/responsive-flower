@@ -308,564 +308,564 @@ nav {
     max-width: 100%;
     height: 500px;
     margin: 120px 0;
-    background-image: linear-gradient(rgba(7, 51, 79, 0.4), url("assets/news-letter-bg.png");
-            background-repeat: no-repeat;
-            background-size: cover;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            gap: 30px;
-            margin-bottom: 50px;
+    background-image: url("assets/news-letter-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+
+}
+
+.join h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.email-section {
+    display: flex;
+}
+
+.join input[type="email"] {
+    width: 500px;
+    height: 50px;
+    margin-left: 0;
+    padding: 0 20px;
+    border: none;
+}
+
+.email-section button {
+    border: none;
+    background-color: #E95A08;
+    color: #ffffff;
+    width: 186px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+/* footer section starts here */
+footer {
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+
+}
+
+.footer-menu ul {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-feature ul {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-icon {
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.footer-para {
+    width: 50%;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:993px) and (max-width:1500px) {
+    .menubar {
+        justify-content: space-between;
+    }
+
+    .menubar ul {
+        display: none;
+    }
+
+    .card-button {
+        padding: 19px 30px;
+    }
+
+    /* plants lover section starts here */
+    .plant-lover {
+
+        margin-top: 50px;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .lover-image img {
+        width: 100%;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .lover-description ul {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .lover-description ul li {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+
+
+    .margin {
+        margin: 0;
+    }
+
+    .menubar {
+        justify-content: space-between;
+    }
+
+    .menubar ul {
+        display: none;
+    }
+
+    /* banner responsive design */
+    .banner {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .banner-design {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 24px;
+        width: 40%;
+    }
+
+    .banner-description {
+        width: 100%;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    /* plant card starts here */
+    .plant-card {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .card-button {
+        padding: 19px 30px;
+    }
+
+    /* plants lover section starts here */
+    .plant-lover {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .lover-image {
+        margin: 50px auto;
+    }
+
+    .lover-image img {
+        width: 100%;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .lover-description {
+        margin: 50px auto;
+    }
+
+    .lover-description ul {
+        font-size: 22px;
+        margin-bottom: 10px;
 
     }
 
-    .join h1 {
-        font-size: 50px;
+    .lover-description ul li {
+        margin-bottom: 30px;
+
+    }
+
+    /* plant lover section */
+    .deals-offer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .zabo-plant {
+        order: 1;
+
+    }
+
+    .bloom,
+    .ana,
+    .plant {
         font-weight: bold;
+        font-size: 20px;
         color: #FFFFFF;
     }
 
-    .email-section {
-        display: flex;
+    .bloom-plant a,
+    .ana-plant a,
+    .zabo-plant a {
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    /* join section */
+    .join h1 {
+        font-size: 20px;
+
     }
 
     .join input[type="email"] {
-        width: 500px;
-        height: 50px;
-        margin-left: 0;
-        padding: 0 20px;
-        border: none;
+        width: 200px;
+
     }
 
     .email-section button {
-        border: none;
-        background-color: #E95A08;
-        color: #ffffff;
-        width: 186px;
-        font-weight: bold;
-        font-size: 16px;
-
+        width: 100px;
     }
 
-    /* footer section starts here */
     footer {
-        justify-content: space-between;
-        padding-bottom: 50px;
-
-
-    }
-
-    .footer-menu ul {
         flex-direction: column;
-        justify-content: space-between;
-        gap: 30px;
+        margin-left: 20px;
     }
 
-    footer li {
-        list-style: none;
+    .footer-menu {
+        margin-bottom: 20px;
     }
 
-    .footer-feature ul {
-        flex-direction: column;
-        gap: 30px;
+    .logo {
+        margin-left: 40px;
     }
 
     .footer-icon {
-        gap: 30px;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-
-
-    .footer-para {
-        width: 50%;
         margin-top: 20px;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+}
+
+
+
+
+@media screen and (min-width:577px) and (max-width:767px) {
+    .margin {
+        margin: 0;
     }
 
-    @media screen and (min-width:993px) and (max-width:1500px) {
-        .menubar {
-            justify-content: space-between;
-        }
+    .menubar {
+        justify-content: space-between;
+    }
 
-        .menubar ul {
-            display: none;
-        }
+    .menubar ul {
+        display: none;
+    }
 
-        .card-button {
-            padding: 19px 30px;
-        }
+    /* banner responsive design */
+    .banner {
+        flex-direction: column-reverse;
+    }
 
-        /* plants lover section starts here */
-        .plant-lover {
+    .banner-design {
+        width: 100%;
+    }
 
-            margin-top: 50px;
-        }
+    .banner-title {
+        font-size: 24px;
+        width: 40%;
+    }
 
-        .title {
-            width: 100%;
-            font-size: 24px;
-        }
+    .banner-description {
+        width: 100%;
+    }
 
-        .lover-image img {
-            width: 100%;
-        }
+    .banner-image img {
+        width: 100%;
+    }
 
-        .badge {
-            display: none;
-        }
+    /* plant section starts here */
+    .plant-card {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
 
-        .lover-description ul {
-            font-size: 22px;
-            margin-bottom: 10px;
-        }
+    .card-button {
+        padding: 19px 30px;
+    }
 
-        .lover-description ul li {
-            margin-bottom: 30px;
-        }
+    /* plants lover section starts here */
+    .plant-lover {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .lover-image {
+        margin: 0 auto;
+    }
+
+    .lover-image img {
+        width: 100%;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .lover-description ul {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .lover-description ul li {
+        margin-bottom: 30px;
+    }
+
+    /* plant lover section */
+    .deals-offer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .zabo-plant {
+        order: 1;
+
+    }
+
+    .bloom,
+    .ana,
+    .plant {
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .bloom-plant a,
+    .ana-plant a,
+    .zabo-plant a {
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    /* join section */
+    .join h1 {
+        font-size: 20px;
+
+    }
+
+    .join input[type="email"] {
+        width: 200px;
+
+    }
+
+    .email-section button {
+        width: 100px;
+    }
+
+    /* join section */
+    .join h1 {
+        font-size: 20px;
+
+    }
+
+    .join input[type="email"] {
+        width: 200px;
+
+    }
+
+    .email-section button {
+        width: 100px;
+    }
+
+    footer {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .footer-menu {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .footer-icon {
+        margin-top: 20px;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .margin {
+        margin: 0;
+    }
+
+    .menubar {
+        justify-content: space-between;
+    }
+
+    .menubar ul {
+        display: none;
+    }
+
+    /* banner responsive design */
+    .banner {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .banner-design {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 24px;
+        width: 60%;
+    }
+
+    .banner-description {
+        width: 100%;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    /* plant-card starts here */
+    .plant-card {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .card-button {
+        padding: 19px 30px;
+    }
+
+    /* plants lover section starts here */
+    .plant-lover {
+        flex-direction: column;
+        margin-top: 50px;
+
+
+    }
+
+    .title {
+        width: 100%;
+        font-size: 24px;
     }
 
 
 
-    @media screen and (min-width:768px) and (max-width: 992px) {
-
-
-        .margin {
-            margin: 0;
-        }
-
-        .menubar {
-            justify-content: space-between;
-        }
-
-        .menubar ul {
-            display: none;
-        }
-
-        /* banner responsive design */
-        .banner {
-            flex-direction: column-reverse;
-            margin: 0 auto;
-            width: 70%;
-        }
-
-        .banner-design {
-            width: 100%;
-        }
-
-        .banner-title {
-            font-size: 24px;
-            width: 40%;
-        }
-
-        .banner-description {
-            width: 100%;
-        }
-
-        .banner-image img {
-            width: 100%;
-        }
-
-        /* plant card starts here */
-        .plant-card {
-            grid-template-columns: repeat(2, 1fr);
-            justify-items: center;
-        }
-
-        .card-button {
-            padding: 19px 30px;
-        }
-
-        /* plants lover section starts here */
-        .plant-lover {
-            flex-direction: column;
-            margin-top: 50px;
-        }
-
-        .title {
-            width: 100%;
-            font-size: 24px;
-        }
-
-        .lover-image {
-            margin: 50px auto;
-        }
-
-        .lover-image img {
-            width: 100%;
-        }
-
-        .badge {
-            display: none;
-        }
-
-        .lover-description {
-            margin: 50px auto;
-        }
-
-        .lover-description ul {
-            font-size: 22px;
-            margin-bottom: 10px;
-
-        }
-
-        .lover-description ul li {
-            margin-bottom: 30px;
-
-        }
-
-        /* plant lover section */
-        .deals-offer {
-            grid-template-columns: repeat(1, 1fr);
-        }
-
-        .zabo-plant {
-            order: 1;
-
-        }
-
-        .bloom,
-        .ana,
-        .plant {
-            font-weight: bold;
-            font-size: 20px;
-            color: #FFFFFF;
-        }
-
-        .bloom-plant a,
-        .ana-plant a,
-        .zabo-plant a {
-            color: #FFFFFF;
-            font-weight: 600;
-            font-size: 16px;
-        }
-
-        /* join section */
-        .join h1 {
-            font-size: 20px;
-
-        }
-
-        .join input[type="email"] {
-            width: 200px;
-
-        }
-
-        .email-section button {
-            width: 100px;
-        }
-
-        footer {
-            flex-direction: column;
-            margin-left: 20px;
-        }
-
-        .footer-menu {
-            margin-bottom: 20px;
-        }
-
-        .logo {
-            margin-left: 40px;
-        }
-
-        .footer-icon {
-            margin-top: 20px;
-            justify-content: flex-start;
-            margin-left: 40px;
-        }
+    .lover-image img {
+        width: 100%;
     }
 
-
-
-
-    @media screen and (min-width:577px) and (max-width:767px) {
-        .margin {
-            margin: 0;
-        }
-
-        .menubar {
-            justify-content: space-between;
-        }
-
-        .menubar ul {
-            display: none;
-        }
-
-        /* banner responsive design */
-        .banner {
-            flex-direction: column-reverse;
-        }
-
-        .banner-design {
-            width: 100%;
-        }
-
-        .banner-title {
-            font-size: 24px;
-            width: 40%;
-        }
-
-        .banner-description {
-            width: 100%;
-        }
-
-        .banner-image img {
-            width: 100%;
-        }
-
-        /* plant section starts here */
-        .plant-card {
-            grid-template-columns: repeat(2, 1fr);
-            justify-items: center;
-        }
-
-        .card-button {
-            padding: 19px 30px;
-        }
-
-        /* plants lover section starts here */
-        .plant-lover {
-            flex-direction: column;
-            margin-top: 50px;
-        }
-
-        .title {
-            width: 100%;
-            font-size: 24px;
-        }
-
-        .lover-image {
-            margin: 0 auto;
-        }
-
-        .lover-image img {
-            width: 100%;
-        }
-
-        .badge {
-            display: none;
-        }
-
-        .lover-description ul {
-            font-size: 14px;
-            margin-bottom: 10px;
-        }
-
-        .lover-description ul li {
-            margin-bottom: 30px;
-        }
-
-        /* plant lover section */
-        .deals-offer {
-            grid-template-columns: repeat(1, 1fr);
-        }
-
-        .zabo-plant {
-            order: 1;
-
-        }
-
-        .bloom,
-        .ana,
-        .plant {
-            font-weight: bold;
-            font-size: 20px;
-            color: #FFFFFF;
-        }
-
-        .bloom-plant a,
-        .ana-plant a,
-        .zabo-plant a {
-            color: #FFFFFF;
-            font-weight: 600;
-            font-size: 16px;
-        }
-
-        /* join section */
-        .join h1 {
-            font-size: 20px;
-
-        }
-
-        .join input[type="email"] {
-            width: 200px;
-
-        }
-
-        .email-section button {
-            width: 100px;
-        }
-
-        /* join section */
-        .join h1 {
-            font-size: 20px;
-
-        }
-
-        .join input[type="email"] {
-            width: 200px;
-
-        }
-
-        .email-section button {
-            width: 100px;
-        }
-
-        footer {
-            flex-direction: column;
-            margin-left: 20px;
-        }
-
-        .footer-menu {
-            margin-bottom: 20px;
-        }
-
-        .logo {
-            margin-left: 40px;
-        }
-
-        .footer-icon {
-            margin-top: 20px;
-            justify-content: flex-start;
-            margin-left: 40px;
-        }
+    .badge {
+        display: none;
     }
 
-    @media screen and (max-width:576px) {
-        .margin {
-            margin: 0;
-        }
-
-        .menubar {
-            justify-content: space-between;
-        }
-
-        .menubar ul {
-            display: none;
-        }
-
-        /* banner responsive design */
-        .banner {
-            flex-direction: column-reverse;
-            width: 100%;
-        }
-
-        .banner-design {
-            width: 100%;
-        }
-
-        .banner-title {
-            font-size: 24px;
-            width: 60%;
-        }
-
-        .banner-description {
-            width: 100%;
-        }
-
-        .banner-image img {
-            width: 100%;
-        }
-
-        /* plant-card starts here */
-        .plant-card {
-            grid-template-columns: repeat(2, 1fr);
-            justify-items: center;
-        }
-
-        .card-button {
-            padding: 19px 30px;
-        }
-
-        /* plants lover section starts here */
-        .plant-lover {
-            flex-direction: column;
-            margin-top: 50px;
-
-
-        }
-
-        .title {
-            width: 100%;
-            font-size: 24px;
-        }
-
-
-
-        .lover-image img {
-            width: 100%;
-        }
-
-        .badge {
-            display: none;
-        }
-
-        .lover-description ul {
-            font-size: 14px;
-            margin-bottom: 10px;
-        }
-
-        .lover-description ul li {
-            margin-bottom: 30px;
-        }
-
-        /* plant lover section */
-        .deals-offer {
-            grid-template-columns: repeat(1, 1fr);
-        }
-
-        .zabo-plant {
-            order: 1;
-        }
-
-        .bloom,
-        .ana,
-        .plant {
-            font-weight: bold;
-            font-size: 20px;
-            color: #FFFFFF;
-        }
-
-        .bloom-plant a,
-        .ana-plant a,
-        .zabo-plant a {
-            color: #FFFFFF;
-            font-weight: 600;
-            font-size: 16px;
-        }
-
-        /* join section */
-        .join h1 {
-            font-size: 20px;
-
-        }
-
-        .join input[type="email"] {
-            width: 200px;
-
-        }
-
-        .email-section button {
-            width: 100px;
-        }
-
-        footer {
-            flex-direction: column;
-            margin-left: 20px;
-        }
-
-        .footer-menu {
-            margin-bottom: 20px;
-        }
-
-        .logo {
-            margin-left: 40px;
-        }
-
-        .footer-icon {
-            margin-top: 20px;
-            justify-content: flex-start;
-            margin-left: 40px;
-        }
+    .lover-description ul {
+        font-size: 14px;
+        margin-bottom: 10px;
     }
+
+    .lover-description ul li {
+        margin-bottom: 30px;
+    }
+
+    /* plant lover section */
+    .deals-offer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .zabo-plant {
+        order: 1;
+    }
+
+    .bloom,
+    .ana,
+    .plant {
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .bloom-plant a,
+    .ana-plant a,
+    .zabo-plant a {
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    /* join section */
+    .join h1 {
+        font-size: 20px;
+
+    }
+
+    .join input[type="email"] {
+        width: 200px;
+
+    }
+
+    .email-section button {
+        width: 100px;
+    }
+
+    footer {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .footer-menu {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .footer-icon {
+        margin-top: 20px;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+}
