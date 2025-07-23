@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* fonts */
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.noto-serif-normal {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared style */
+.margin {
+    margin: 0 150px;
+}
+
+.orange-color {
+    color: #E95A08;
+}
+
+.disply-flex {
+    display: flex;
+}
+
+.menu-color {
+    color: #8987A1;
+}
+
+.active {
+    color: black;
+    font-weight: 600;
+}
+
+.shaded-color {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* navbar style starts here */
+nav {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: calc(30rem /16);
+}
+
+.menubar {
+    justify-content: space-between;
+    align-items: center;
+    gap: calc(48rem/16);
+
+}
+
+.menubar ul {
+    gap: calc(48rem/16);
+}
+
+.menubar li {
+    list-style: none;
+
+}
+
+.cart a {
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.cart a i {
+    padding: calc(5rem / 16);
+}
+
+/* banner section starts here */
+.banner {
+    margin-top: calc(120rem / 16);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-design {
+    width: 50%;
+}
+
+.banner-title {
+    font-size: 65px;
+}
+
+.banner-description {
+
+    font-size: 22px;
+}
+
+/* responsive design starts here */
+@media screen and (max-width:1200px) {
+    .menubar {
+        justify-content: space-between;
+    }
+
+    .menubar ul {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+
+
+    .margin {
+        margin: 0;
+    }
+
+    .menubar {
+        justify-content: space-between;
+    }
+
+    .menubar ul {
+        display: none;
+    }
+
+    /* banner responsive design */
+    .banner {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .banner-design {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 24px;
+        width: 40%;
+    }
+
+    .banner-description {
+        width: 100%;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:767px) {
+    .margin {
+        margin: 0;
+    }
+
+    .menubar {
+        justify-content: space-between;
+    }
+
+    .menubar ul {
+        display: none;
+    }
+
+    /* banner responsive design */
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-design {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 24px;
+        width: 40%;
+    }
+
+    .banner-description {
+        width: 100%;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .margin {
+        margin: 0;
+    }
+
+    .menubar {
+        justify-content: space-between;
+    }
+
+    .menubar ul {
+        display: none;
+    }
+
+    /* banner responsive design */
+    .banner {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .banner-design {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 24px;
+        width: 60%;
+    }
+
+    .banner-description {
+        width: 100%;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+}
